@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<input type="text" id="input" name="">
+<button id="b">
+	ok
+</button>
+<div id="div">
+	
+</div>
+<script type="text/javascript">
+	let m = []
+	let input = document.getElementById('input')
+	let b = document.getElementById('b')
+	let div = document.getElementById('div')
+	let p = ''
+	b.onclick = () => {
+		let a = input.value[0].toLocaleUpperCase()
+		console.log(a)
+		for (let i = 1; i < input.value.length; i++) {
+			a += input.value[i]
+			console.log(a)
+		}
+		m.push(a)
+		div.innerHTML = ''
+		m.sort()
+		input.value = ''
+		m.map(function (argument) {
+			div.innerHTML += `<div>${argument}</div>`
+		})
+	}
+</script>
+</script>
+</body>
+</html>

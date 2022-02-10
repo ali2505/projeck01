@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!-- 	<h3>hello dom</h3>
+	<h3>hello dom 2</h3>
+	<p>H</p><p>e</p><p>l</p><p>l</p><p>o</p>
+	<span id = 'ali'>
+		
+	</span> -->
+	<div id ='al'>
+		
+	</div>
+<!-- <script type="text/javascript">
+	let d = document.getElementById('ali')
+	d.innerHTML = "<h1 style='color: red'> hi dom <h1/>"
+
+	let f = '';
+	for (let i = 0; i < 5; i++) {
+		f += document.getElementsByTagName('p')[i].innerHTML
+	}
+	console.log(f)
+	
+	let d = document.getElementById('al')
+	console.log(d.innerHTML[6] + d.innerHTML[7] + d.innerHTML[8])
+</script> -->
+
+<script type="text/javascript">
+	let a = 'Hello text'
+	let d = document.getElementById('al')
+	for(let i = 0; i < a.length; i++){
+		if (i % 2 == 0) {
+			d.innerHTML += `<span style='color: red'>${a[i]}
+			</span>`
+		}else{
+			d.innerHTML += `<span style='blue: red'>${a[i]}
+			</span>`
+		}
+	}
+</script>
+</body>
+</html>

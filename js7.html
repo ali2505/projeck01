@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<span id="s">
+		
+	</span>
+	<input type="text" id="ali" name="">
+<script type="text/javascript">
+	let a = prompt("text")
+	let s = document.getElementById('s')
+	for (let i = 0; i < a.length; i++) {
+		i % 2 == 0 ? s.innerHTML += `<span style='color: red;'>${a[i]}</span>`
+		: s.innerHTML += `<span style='color: blue;'>${a[i]}</span>`
+	}
+
+	
+</script>
+</body>
+</html>

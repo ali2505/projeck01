@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<button id="b">
+	ok
+</button>
+<script type="text/javascript">
+let b = document.getElementById('b')
+let key = 1
+b.onclick = (value) => {
+	key += 1
+	localStorage.setItem(key, 'Alibek');
+	// alert(localStorage.getItem('a'))
+	// localStorage.removeItem(44)
+	// localStorage.clear()
+	alert(localStorage.key(2))
+}
+</script>
+</body>
+</html>

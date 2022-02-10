@@ -1,0 +1,109 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/heal"},
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/cyan_dye"},
+		{ "predicate": { "custom_model_data": 3 }, "model": "item/dark_oak_leaves"},
+		{ "predicate": { "custom_model_data": 4 }, "model": "item/black_dye"},
+		{ "predicate": { "custom_model_data": 5 }, "model": "item/unlocker"},
+		{ "predicate": { "custom_model_data": 6 }, "model": "item/green_dye"},
+		{ "predicate": { "custom_model_data": 7 }, "model": "item/book"},
+		{ "predicate": { "custom_model_data": 8 }, "model": "item/enchanted_book"},
+		{ "predicate": { "custom_model_data": 9 }, "model": "item/white_dye"},
+		{ "predicate": { "custom_model_data": 10 }, "model": "item/door"},
+		{ "predicate": { "custom_model_data": 11 }, "model": "item/fire_extinguisher"},
+		{ "predicate": { "custom_model_data": 12 }, "model": "item/radio"},
+		{ "predicate": { "custom_model_data": 13 }, "model": "item/gas"},
+		{ "predicate": { "custom_model_data": 14 }, "model": "item/ammo_box"},
+		{ "predicate": { "custom_model_data": 15 }, "model": "item/brown_dye"},
+		{ "predicate": { "custom_model_data": 16 }, "model": "item/valve"},
+		{ "predicate": { "custom_model_data": 17 }, "model": "item/purple_dye"},
+		{ "predicate": { "custom_model_data": 18 }, "model": "item/medkit"},
+		{ "predicate": { "custom_model_data": 19 }, "model": "item/c4_inv"},
+		{ "predicate": { "custom_model_data": 20 }, "model": "item/c4"},
+		
+		
+		  {"predicate": {"damaged": 0,"custom_model_data": 50},"model": "mgs:gun/m4a1"},
+      {"predicate": {"damaged": 0,"custom_model_data": 51},"model": "mgs:gun/m4a1_1"},
+      {"predicate": {"damaged": 0,"custom_model_data": 52},"model": "mgs:gun/m4a1_2"},
+      {"predicate": {"damaged": 0,"custom_model_data": 53},"model": "mgs:gun/m4a1_3"},
+      {"predicate": {"damaged": 0,"custom_model_data": 54},"model": "mgs:gun/m4a1_4"},
+      {"predicate": {"damaged": 0,"custom_model_data": 55},"model": "mgs:gun/m4a1_zoom"},
+      {"predicate": {"damaged": 0,"custom_model_data": 56},"model": "mgs:gun/m4a1_zoom_1"},
+      {"predicate": {"damaged": 0,"custom_model_data": 57},"model": "mgs:gun/m4a1_zoom_2"},
+      {"predicate": {"damaged": 0,"custom_model_data": 58},"model": "mgs:gun/m4a1_zoom_3"},
+      {"predicate": {"damaged": 0,"custom_model_data": 59},"model": "mgs:gun/m4a1_zoom_4"},
+	  
+	  {"predicate": {"damaged": 0,"custom_model_data": 130},"model": "mgs:gun/deagle"},
+      {"predicate": {"damaged": 0,"custom_model_data": 134},"model": "mgs:gun/deagle_4"},
+      {"predicate": {"damaged": 0,"custom_model_data": 135},"model": "mgs:gun/deagle_zoom"},
+      {"predicate": {"damaged": 0,"custom_model_data": 139},"model": "mgs:gun/deagle_zoom_4"},
+	  
+	  {"predicate": {"damaged": 0,"custom_model_data": 150},"model": "mgs:gun/glock17"},
+      {"predicate": {"damaged": 0,"custom_model_data": 155},"model": "mgs:gun/glock17_zoom"},
+	  
+	  {"predicate": {"damaged": 0,"custom_model_data": 160},"model": "mgs:gun/glock18"},
+      {"predicate": {"damaged": 0,"custom_model_data": 165},"model": "mgs:gun/glock18_zoom"},
+	  
+	  {"predicate": {"damaged": 0,"custom_model_data": 220},"model": "mgs:gun/mac10"},
+      {"predicate": {"damaged": 0,"custom_model_data": 225},"model": "mgs:gun/mac10_zoom"},
+	  
+	  {"predicate": {"damaged": 0,"custom_model_data": 320},"model": "mgs:gun/m500"},
+      {"predicate": {"damaged": 0,"custom_model_data": 321},"model": "mgs:gun/m500_1"},
+      {"predicate": {"damaged": 0,"custom_model_data": 322},"model": "mgs:gun/m500_2"},
+      {"predicate": {"damaged": 0,"custom_model_data": 323},"model": "mgs:gun/m500_3"},
+      {"predicate": {"damaged": 0,"custom_model_data": 325},"model": "mgs:gun/m500_zoom"},
+      {"predicate": {"damaged": 0,"custom_model_data": 326},"model": "mgs:gun/m500_zoom_1"},
+      {"predicate": {"damaged": 0,"custom_model_data": 327},"model": "mgs:gun/m500_zoom_2"},
+      {"predicate": {"damaged": 0,"custom_model_data": 328},"model": "mgs:gun/m500_zoom_3"},
+	  
+	  
+
+		
+		
+		{ "predicate": { "custom_model_data": 501 }, "model": "item/man"},
+		{ "predicate": { "custom_model_data": 502 }, "model": "item/girl"},
+		{ "predicate": { "custom_model_data": 503 }, "model": "item/grandpa"},
+		{ "predicate": { "custom_model_data": 504 }, "model": "item/grandpa_dead"},
+		{ "predicate": { "custom_model_data": 505 }, "model": "item/survivalist"},
+		{ "predicate": { "custom_model_data": 506 }, "model": "item/swat/swat1"},
+		{ "predicate": { "custom_model_data": 507 }, "model": "item/swat/swat2"},
+		{ "predicate": { "custom_model_data": 508 }, "model": "item/swat/swat3"},
+		{ "predicate": { "custom_model_data": 509 }, "model": "item/swat/swat4"},
+		{ "predicate": { "custom_model_data": 510 }, "model": "item/swat/swat5"},
+		{ "predicate": { "custom_model_data": 511 }, "model": "item/swat/pilot"},
+		{ "predicate": { "custom_model_data": 512 }, "model": "item/swat/swat5_dead"},
+		{ "predicate": { "custom_model_data": 513 }, "model": "item/swat/swat3_dead"},
+		{ "predicate": { "custom_model_data": 514 }, "model": "item/swat/swat4_heli"},
+		{ "predicate": { "custom_model_data": 515 }, "model": "item/swat/pilot_heli"},
+		{ "predicate": { "custom_model_data": 516 }, "model": "item/swat/swat1_stand"},
+		{ "predicate": { "custom_model_data": 517 }, "model": "item/swat/swat2_heli_2"},
+		{ "predicate": { "custom_model_data": 518 }, "model": "item/swat/swat2_heli_3"},
+		{ "predicate": { "custom_model_data": 519 }, "model": "item/swat/swat2_heli_4"},
+		
+		{"predicate": {"damaged": 0,"custom_model_data": 520},"model": "mgs:gun/rpk"},
+		
+		
+		{ "predicate": { "custom_model_data": 521 }, "model": "item/swat/swat2_heli_6"},
+		{ "predicate": { "custom_model_data": 522 }, "model": "item/swat/swat2_heli_7"},
+		{ "predicate": { "custom_model_data": 523 }, "model": "item/swat/swat2_heli_8"},
+		{ "predicate": { "custom_model_data": 524 }, "model": "item/swat/swat2_heli_9"},
+		
+		{"predicate": {"damaged": 0,"custom_model_data": 525},"model": "mgs:gun/rpk_zoom"},
+		
+		{ "predicate": { "custom_model_data": 526 }, "model": "item/gg_heli"},
+		{ "predicate": { "custom_model_data": 527 }, "model": "item/sg"},
+		{ "predicate": { "custom_model_data": 528 }, "model": "item/swat/swat4_dlc_cutscene"},
+		
+		
+		
+		{"predicate": {"custom_model_data":1008}, "model": "item/pc"},
+		{ "predicate": { "custom_model_data": 1520 }, "model": "item/swat/swat2_heli_5"},
+		{ "predicate": { "custom_model_data": 1525 }, "model": "item/swat/swat2_heli_10"},
+		{"predicate": {"custom_model_data": 1530},"model": "mgs:gun/rpk_npc"}
+		
+	]
+}

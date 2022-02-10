@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body id="b">
+<center style="font-size: 100px;">
+<span id="s1" style="font-size: 100px;">00</span> :
+<span id="s2" style="font-size: 100px;">00</span>
+<div id="div">
+    0 som
+</div>
+</center>
+<script type="text/javascript">
+    let b = document.getElementById('b')
+    let s1 = document.getElementById('s1')
+    let s2 = document.getElementById('s2')
+    let div = document.getElementById('div')
+    let s = 0
+    let time1 = ''
+    let time2 = ''
+    let k = 0
+    let f = true
+    let g = 0
+    document.body.onkeydown = function (e) {
+        if (e.keyCode == 32 && f) {
+            f=!f
+            function go(){
+                time1 = setInterval(function(){
+                    s++
+                    s2.innerHTML = s > 9 ? s : '0' + s
+                    if (s == 60) {
+                        s = 0
+                        k++
+                        s1.innerHTML = k > 9 ? k : '0' + k
+                        div.innerHTML = ''
+                        g+=50
+                        div.innerHTML = `${g}som`
+                    } 
+                },100)
+
+            }
+            go()
+        }else if (e.keyCode==32 && !f) {
+            f = !f
+            clearInterval(time1)
+        }
+    }
+</script>
+</body>
+</html>

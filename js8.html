@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<button id="b">
+	цифра
+</button>
+<div id="d">
+	<ul>
+	<li>
+		число 1
+	</li>
+	</ul>
+</div>
+<script type="text/javascript">
+	let b = document.getElementById('b')
+	let d = document.getElementById('d')
+	let a = ''
+	let i = 2
+	b.onclick = (event) => {
+		d.innerHTML += `<ul><li>число ${i++}</li></ul>`
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<input type="text" id="input" name="">
+<button id="b">
+	ok
+</button>
+<div id="div">
+	
+</div>
+
+<script type="text/javascript">
+	// let a = 'Mozila'
+	// console.log(a.substring(0, 3))
+	// console.log(a.substring(3, 0))
+
+	// let b = 'быть или не быть вот в чём вопрос.';
+	// console.log(b.includes('быть'))
+	let input = document.getElementById('input')
+	let b = document.getElementById('b')
+	let div = document.getElementById('div')
+	let pistol = [
+	{name: 'glock 18', caliber: '9 mm', kg: '0,900'},
+	{name: 'fn', caliber: '5,7x28 mm', kg: '0,744'},
+	{name: 'револьвер наган', caliber: '7,62 mm', kg: '0,880'},
+	{name: 'desert egle', caliber: '44 magnum', kg: '1,700'},
+	{name: 'пистолет макарова', caliber: '9 mm', kg: '0,810'},
+	]
+	b.onclick = () => {
+		pistol.map(v => {
+		if (v.name.includes(input.value) && input.value.length > 0) {
+			div.innerHTML += `<div> name:${v.name}</div>`
+			div.innerHTML += `<div> caliber:${v.caliber}</div>`
+			div.innerHTML += `<div> kg:${v.kg}</div>`
+			div.innerHTML += `<img src="">`
+			input.value = ''
+		}
+	});
+	}
+</script>
+</body>
+</html>

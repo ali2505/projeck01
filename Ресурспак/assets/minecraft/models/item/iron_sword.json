@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/iron_sword"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/melee/katana"},
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/melee/crow_bar"},
+		{ "predicate": { "custom_model_data": 3 }, "model": "item/melee/flying_pan"}
+		
+		
+		
+	]
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/lime_dye"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data":1 }, "model": "item/key_card/1" },
+		{ "predicate": { "custom_model_data":2 }, "model": "item/key_card/2" },
+		{ "predicate": { "custom_model_data":3 }, "model": "item/key_card/3" }
+  
+    ]
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<input id="input" type="number" name="">
+<button id="b">
+	Старт
+</button>
+<div id="div" style="display: flex;">
+	
+</div>
+<script type="text/javascript">
+	let input = document.getElementById('input')
+	let b = document.getElementById('b')
+	let div = document.getElementById('div')
+	d = ''
+	v = true;
+	input.oninput = (event) => {
+	v = event.target.value = ''
+}
+	b.onclick = (event) => {
+	if (v != '') {
+		for (let i = 0; i < d; i++) {
+			if (i % 2 == 0) {
+				div.innerHTML += `<div style="border: solid 1px black; color: blue; width: 60px; height: 80; margin: 7px;">${div}</div>`
+				input.value = ''
+			}
+			else{
+				div.innerHTML += `<div style="border: solid 1px black; color: red; width: 60px; height: 80; margin: 7px; border-radius: 100%;">${div}</div>`
+				input.value = ''
+			}
+		}
+	}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+    
+    "int.book":
+	{"category": "master","sounds": [{"name": "int/book","stream": false}]},
+	
+	"int.medkit":
+	{"category": "master","sounds": [{"name": "int/medkit","stream": false}]},
+	
+	"int.injector":
+	{"category": "master","sounds": [{"name": "int/injector","stream": false}]},
+	
+	"int.rag":
+	{"category": "master","sounds": [{"name": "int/rag","stream": false}]},
+	
+	"int.box":
+	{"category": "master","sounds": [{"name": "int/box","stream": false}]},
+	
+	"int.fire":
+	{"category": "master","sounds": [{"name": "int/fire","stream": false}]},
+	
+	"int.valve":
+	{"category": "master","sounds": [{"name": "int/valve","stream": false}]},
+	
+	"int.lift":
+	{"category": "master","sounds": [{"name": "int/lift","stream": false}]},
+	
+	"int.lift_crash":
+	{"category": "master","sounds": [{"name": "int/lift_crash","stream": false}]},
+	
+	"int.lift_move":
+	{"category": "master","sounds": [{"name": "int/lift_move","stream": false}]},
+	
+	"int.firetruck":
+	{"category": "master","sounds": [{"name": "int/firetruck","stream": false}]},
+	
+	"int.train":
+	{"category": "master","sounds": [{"name": "int/train","stream": false}]},
+	
+	"int.deagle":
+	{"category": "master","sounds": [{"name": "int/deagle","stream": false}]},
+	
+	"int.heli":
+	{"category": "master","sounds": [{"name": "int/heli","stream": false}]},
+	
+	"int.wind":
+	{"category": "master","sounds": [{"name": "int/wind","stream": false}]},
+	
+	"int.bam":
+	{"category": "master","sounds": [{"name": "int/bam","stream": false}]},
+	
+	"int.doom":
+	{"category": "master","sounds": [{"name": "int/doom","stream": false}]},
+	
+	"int.jingle":
+	{"category": "master","sounds": [{"name": "int/jingle","stream": false}]},
+	
+	"int.cassette":
+	{"category": "master","sounds": [{"name": "int/cassette","stream": false}]},
+	
+	
+	"delta.c4":
+	{"category": "master","sounds": [{"name": "delta/c4","stream": false}]},
+	
+	"delta.lift1":
+	{"category": "master","sounds": [{"name": "delta/lift_move1","stream": false}]},
+	
+	"delta.lift2":
+	{"category": "master","sounds": [{"name": "delta/lift_move2","stream": false}]}
+}

@@ -1,0 +1,13 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/potion"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/gray_dye"},
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/light_gray_dye"},
+		{ "predicate": { "custom_model_data": 3 }, "model": "item/magenta_dye"}
+		
+	
+	]
+}

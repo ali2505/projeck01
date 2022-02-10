@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body id="body">
+<div id="div1" style="width: 800px; height: 550px; border: 2px solid red; position: relative; overflow: hidden;">
+	<div id="div2" style="width: 40px; height: 40px; background-color: green; border-color: blue; position: absolute; border-radius: 100%;"></div>
+</div>
+<script type="text/javascript">
+	let body = document.getElementById('body')
+	let div1 = document.getElementById('div1')
+	let div2 = document.getElementById('div2')
+	let current = ''
+	let _left = 0
+	let _top = 0
+	document.body.onkeyup = function(e) {
+		current = e.keyCode
+	};
+	setInterval(function(){
+		if (current == 39) {
+			_left += 5
+			console.log(current)
+		}
+		else if (current == 37) {
+			_left -= 5
+			
+		}
+		else if (current == 40) {
+			_top += 5
+			
+		}
+		else if (current == 38) {
+			_top -= 5
+		}
+
+		if (_left > 800) {
+			_left = 0
+		}
+		if (_left < 0) {
+			_left = 800
+		}
+		if (_top > 550) {
+			_top = 0
+		}
+		if (_top < 0) {
+			_top = 550
+		}
+		div2.style.left = `${_left}px`
+		div2.style.top = `${_top}px`
+	},10)
+</script>
+</body>
+</html>

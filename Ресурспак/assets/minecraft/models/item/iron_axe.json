@@ -1,0 +1,26 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/iron_axe"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/melee/combat_knife"},
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/melee/crow_bar"},
+		{ "predicate": { "custom_model_data": 3 }, "model": "item/melee/fire_axe"},
+		{ "predicate": { "custom_model_data": 4 }, "model": "item/melee/lead_pipe"},
+		{ "predicate": { "custom_model_data": 5 }, "model": "item/melee/kitchen_knife"},
+		{ "predicate": { "custom_model_data": 6 }, "model": "item/melee/screw_driver"},
+		{ "predicate": { "custom_model_data": 7 }, "model": "item/melee/baseball_bat_nailed"},
+		{ "predicate": { "custom_model_data": 8 }, "model": "item/melee/cleaver"},
+		{ "predicate": { "custom_model_data": 9 }, "model": "item/melee/katana"},
+		{ "predicate": { "custom_model_data": 10 }, "model": "item/melee/sledge_hammer"},
+		{ "predicate": { "custom_model_data": 11 }, "model": "item/melee/telescopic_baton"},
+		{ "predicate": { "custom_model_data": 12 }, "model": "item/melee/flying_pan"},
+		{ "predicate": { "custom_model_data": 13 }, "model": "item/melee/canoe_paddle"},
+		{ "predicate": { "custom_model_data": 14 }, "model": "item/melee/hunting_knife"},
+		{ "predicate": { "custom_model_data": 15 }, "model": "item/melee/machete"},
+		{ "predicate": { "custom_model_data": 16 }, "model": "item/lapis_lazuli"}
+		
+	
+	]
+}

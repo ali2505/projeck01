@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="div">
+	<center>
+		<input id="input1" type="text" name="">
+		<br>
+		<input id="input2" type="number" name="">
+		<br>
+		<input id="input3" type="password" name="">
+		<br>
+		<button id="b">
+			ok
+		</button>
+	</center>	
+</div>
+<script type="text/javascript">
+let div = document.getElementById('div')
+let input1 = document.getElementById('input1')
+let input2 = document.getElementById('input2')
+let input3 = document.getElementById('input3')
+let b = document.getElementById('b')
+b.oninput = (e) => {
+	if (input1.text == 'ali' && input2.text == 2005 && input3.text == 1982) {
+		div.innerHTML = ''
+		div.innerHTML = '<h1> ali </h1>'
+	}
+}
+</script>
+</body>
+</html>

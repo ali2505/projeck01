@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body id="bo" style="background-color: black;">
+	<center>
+	<img id="i" style="margin-top: 50px; width: 600px; height: 400px;" src="https://vistapointe.net/images/1965-ford-mustang-1.jpg">
+	</center>
+	<button id="b" style="color: white; height: 50px; width: 250px; background-color: transparent;
+	margin-top: 100px; margin-left: 950px; font-size: 30px; border-radius: 30px;">
+		следующая
+	</button>
+<script type="text/javascript">
+	let bo = document.getElementById('bo')
+	let b = document.getElementById('b')
+	let i = document.getElementById('i')
+	b.onclick=function(){
+		i.innerHTML =""
+		i.innerHTML = "<img style='margin-top: 50px; width: 600px; height: 400px;' src'https://avatars.mds.yandex.net/get-verba/1030388/2a0000016091258753fd67ec4d2937f800ff/cattouch'>"
+		// i.innerHTML = "<img style='margin-top: 50px; width: 600px; height: 400px;' src'https://avatars.mds.yandex.net/get-verba/1030388/2a0000016091258753fd67ec4d2937f800ff/cattouch'>"
+	}
+</script>
+</body>
+</html>

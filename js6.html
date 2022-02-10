@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- <button id="btn">
+		ok
+	</button>
+	<div id="w">
+		A
+	</div>
+	<h3 id="a">
+		
+	</h3>
+	<button id="q">
+		OK
+	</button>
+<script type="text/javascript">
+	let m = ["Ali", "Farid", "Aidinek", "Tazagul", "Bekbolsun", "Sultanbek"]
+	let d = document.getElementById('w')
+
+	let a ="helllo dom"
+	let d = document.getElementById("w")
+	for (let i = 0; i < 6; i++) {
+		if (i % 2 == 0) {
+			d.innerHTML += `<h${i + 1} style="color: red">${a}</h${i + 1}>`
+		}else{
+			d.innerHTML += `<h${i + 1} style="color: blue">${a}</h${i + 1}> `
+		}
+	}
+
+	let q = document.getElementById("q")
+	let btn = document.getElementById("btn")
+	let div = document.getElementById("w")
+	let h1 = document.getElementById("a")
+	btn.onclick =function(){
+		div.innerHTML = ''
+		h1.innerHTML = "Ali"
+	}
+	q.onclick =function(){
+		h1.innerHTML = ""
+	}
+</script> -->
+<button id="a" style="color: white; background-color: green;">
+	Показать
+</button>
+<br/>
+<img id="b" src="https://avatarko.ru/img/kartinka/7/zhivotnye_volk_6617.jpg">
+<script type="text/javascript">
+	let t = true;
+	let a = document.getElementById("a")
+	let b = document.getElementById("b")
+		a.onclick = function(){
+			t = !t
+			if (t) {
+				b.style.display = "none"
+				a.innerHTML = "Показать"
+				a.style.backgroundColor = "green"
+			}else{
+				b.style.display = "block"
+				a.innerHTML = "Скрыть"
+				a.style.backgroundColor = "red"
+
+			}
+	}
+</script>
+</body>
+</html>

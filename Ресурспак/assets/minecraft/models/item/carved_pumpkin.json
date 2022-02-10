@@ -1,0 +1,13 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "block/pumpkin_top",
+        "front": "block/carved_pumpkin",
+        "side": "block/pumpkin_side"
+    },
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/helmet/sam"},
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/helmet/bain"},
+		{ "predicate": { "custom_model_data": 3 }, "model": "item/helmet/griggs"}
+	]
+}
